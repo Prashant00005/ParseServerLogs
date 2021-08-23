@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cs.ServerLogsProject.AppTest" time="0.079" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/test-classes:/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/classes:/Users/WolfDen/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/WolfDen/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/WolfDen/.m2/repository/org/hsqldb/hsqldb/2.6.0/hsqldb-2.6.0.jar:/Users/WolfDen/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/WolfDen/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib"/>
+    <property name="sun.java.command" value="/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/surefire/surefirebooter6252533687005645354.jar /Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/surefire 2021-08-23T05-18-06_630-jvmRun1 surefire12290644843508219846tmp surefire_04615588994395471647tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/test-classes:/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/classes:/Users/WolfDen/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/WolfDen/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/WolfDen/.m2/repository/org/hsqldb/hsqldb/2.6.0/hsqldb-2.6.0.jar:/Users/WolfDen/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/WolfDen/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/WolfDen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject/target/surefire/surefirebooter6252533687005645354.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="WolfDen"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/WolfDen/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/c1/58grwsgd7k5__k_zzrglmgrw0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/WolfDen/Latest_Eclipse_Workspace/ServerLogsProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/WolfDen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.cs.ServerLogsProject.AppTest" time="0.002"/>
+</testsuite>
